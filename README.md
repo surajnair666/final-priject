@@ -1,2 +1,2 @@
-# final-priject
+# final-project
 Smart security system
