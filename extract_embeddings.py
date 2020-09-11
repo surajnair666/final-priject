@@ -32,6 +32,7 @@ for (i, imagePath) in enumerate(imagePaths):
 	image = imutils.resize(image, width=600)
 	(h, w) = image.shape[:2]
 
+	
 	# construct a blob from the image
 	imageBlob = cv2.dnn.blobFromImage(
 		cv2.resize(image, (300, 300)), 1.0, (300, 300),
